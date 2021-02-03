@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37AE000E22B5B1CB00261B39 /* GoogleInteractiveMediaAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AE000D22B5B1CB00261B39 /* GoogleInteractiveMediaAds.framework */; };
 		6B15BE8121512EEE002C41CF /* SambaCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B15BE8021512EEE002C41CF /* SambaCast.swift */; };
 		6B3CC8A7214FD4FD00FAC5A4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3CC8A6214FD4FD00FAC5A4 /* Accelerate.framework */; };
 		6B3CC8A9214FD51500FAC5A4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3CC8A8214FD51500FAC5A4 /* AudioToolbox.framework */; };
@@ -148,11 +147,9 @@
 		C7ED780E1F97C83100BB05E2 /* OptionsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ED780D1F97C83100BB05E2 /* OptionsMenuView.swift */; };
 		C7ED78101F97C83D00BB05E2 /* OptionsMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7ED780F1F97C83D00BB05E2 /* OptionsMenuView.xib */; };
 		C7ED78141F97C9A400BB05E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7ED78131F97C9A400BB05E2 /* Images.xcassets */; };
-		D1C23AC22507B45C001C4AB7 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3CC8B4214FD5B200FAC5A4 /* GoogleCast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37AE000D22B5B1CB00261B39 /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInteractiveMediaAds.framework; path = Frameworks/GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
 		6B15BE8021512EEE002C41CF /* SambaCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SambaCast.swift; sourceTree = "<group>"; };
 		6B3CC8A6214FD4FD00FAC5A4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		6B3CC8A8214FD51500FAC5A4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -161,7 +158,6 @@
 		6B3CC8AE214FD55100FAC5A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6B3CC8B0214FD56600FAC5A4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		6B3CC8B2214FD59B00FAC5A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6B3CC8B4214FD5B200FAC5A4 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleCast.framework; path = Frameworks/GoogleCast.framework; sourceTree = "<group>"; };
 		6B3CC8B6214FD5C500FAC5A4 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
 		6B3CC8B8214FD5DA00FAC5A4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		6B3CC8BA214FD5E500FAC5A4 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
@@ -297,7 +293,6 @@
 		C7ED780D1F97C83100BB05E2 /* OptionsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsMenuView.swift; sourceTree = "<group>"; };
 		C7ED780F1F97C83D00BB05E2 /* OptionsMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionsMenuView.xib; sourceTree = "<group>"; };
 		C7ED78131F97C9A400BB05E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D1FF42F624734E9B0077BB66 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleCast.framework; path = Frameworks/GoogleCast.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,7 +300,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37AE000E22B5B1CB00261B39 /* GoogleInteractiveMediaAds.framework in Frameworks */,
 				6B3CC8C8214FE48300FAC5A4 /* libc++.tbd in Frameworks */,
 				6B3CC8C1214FD61100FAC5A4 /* UIKit.framework in Frameworks */,
 				6B3CC8BF214FD60200FAC5A4 /* SystemConfiguration.framework in Frameworks */,
@@ -314,7 +308,6 @@
 				6B3CC8B9214FD5DB00FAC5A4 /* MediaPlayer.framework in Frameworks */,
 				6B3CC8B7214FD5C500FAC5A4 /* MediaAccessibility.framework in Frameworks */,
 				6B3CC8B3214FD59B00FAC5A4 /* Foundation.framework in Frameworks */,
-				D1C23AC22507B45C001C4AB7 /* GoogleCast.framework in Frameworks */,
 				6B3CC8B1214FD56600FAC5A4 /* CoreText.framework in Frameworks */,
 				6B3CC8AF214FD55200FAC5A4 /* CoreGraphics.framework in Frameworks */,
 				6B3CC8AD214FD54100FAC5A4 /* CoreBluetooth.framework in Frameworks */,
@@ -489,8 +482,6 @@
 		9AE43F181F2A8BA2001DD6D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1FF42F624734E9B0077BB66 /* GoogleCast.framework */,
-				37AE000D22B5B1CB00261B39 /* GoogleInteractiveMediaAds.framework */,
 				6B3CC8C7214FE48200FAC5A4 /* libc++.tbd */,
 				6B3CC8C0214FD61000FAC5A4 /* UIKit.framework */,
 				6B3CC8BE214FD60200FAC5A4 /* SystemConfiguration.framework */,
@@ -498,7 +489,6 @@
 				6B3CC8BA214FD5E500FAC5A4 /* MediaToolbox.framework */,
 				6B3CC8B8214FD5DA00FAC5A4 /* MediaPlayer.framework */,
 				6B3CC8B6214FD5C500FAC5A4 /* MediaAccessibility.framework */,
-				6B3CC8B4214FD5B200FAC5A4 /* GoogleCast.framework */,
 				6B3CC8B2214FD59B00FAC5A4 /* Foundation.framework */,
 				6B3CC8B0214FD56600FAC5A4 /* CoreText.framework */,
 				6B3CC8AE214FD55100FAC5A4 /* CoreGraphics.framework */,
@@ -960,8 +950,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sambatech.SambaPlayer;
 				PRODUCT_NAME = SambaPlayer;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -995,7 +987,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sambatech.SambaPlayer;
 				PRODUCT_NAME = SambaPlayer;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

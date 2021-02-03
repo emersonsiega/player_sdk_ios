@@ -45,7 +45,7 @@ If `outputs` field is nil, `url` field will be used instead.
 	public var adUrl: String?
 	
 	/// DFP settings
-	public var adsSettings = GMFAdsSettings()
+//	public var adsSettings = GMFAdsSettings()
 	
 	/// List of outputs
 	public var outputs: [SambaMediaOutput]?
@@ -127,7 +127,7 @@ If `outputs` field is nil, `url` field will be used instead.
 		outputs = media.outputs
 		captions = media.captions
 		adUrl = media.adUrl
-		adsSettings = media.adsSettings
+//		adsSettings = media.adsSettings
 		deliveryType = media.deliveryType
 		thumb = media.thumb
 		isLive = media.isLive

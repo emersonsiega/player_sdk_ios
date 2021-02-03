@@ -141,13 +141,13 @@ NSString *const kActionButtonSelectorKey = @"kActionButtonSelectorKey";
 					 imaTag:(NSString *)tag
 				andSettings:(GMFAdsSettings *)settings {
   [_player loadStreamWithAsset:asset];
-  if (_adService && [_adService class] == [GMFIMASDKAdService class]) {
-    [(GMFIMASDKAdService *)_adService reset];
-  } else {
-    _adService = [[GMFIMASDKAdService alloc] initWithGMFVideoPlayer:self
-														andSettings:settings];
-  }
-  [(GMFIMASDKAdService*)_adService requestAdsWithRequest:tag];
+//  if (_adService && [_adService class] == [GMFIMASDKAdService class]) {
+//    [(GMFIMASDKAdService *)_adService reset];
+//  } else {
+//    _adService = [[GMFIMASDKAdService alloc] initWithGMFVideoPlayer:self
+//														andSettings:settings];
+//  }
+//  [(GMFIMASDKAdService*)_adService requestAdsWithRequest:tag];
 }
 
 - (void)play {

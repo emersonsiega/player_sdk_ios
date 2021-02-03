@@ -31,7 +31,7 @@
 
 - (void)currentMediaTimeDidChange {
   [self willChangeValueForKey:@"currentTime"];
-  _currentTime = _playerViewController.currentMediaTime;
+//  _currentTime = _playerViewController.currentMediaTime;
   [self didChangeValueForKey:@"currentTime"];
 }
 

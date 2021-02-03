@@ -12,42 +12,42 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleMediaFramework.h"
+//#import "GoogleMediaFramework.h"
 #import "GMFAdsSettings.h"
-@import GoogleInteractiveMediaAds;
+// @import GoogleInteractiveMediaAds;
 
-@interface GMFIMASDKAdService : GMFAdService<IMAAdsLoaderDelegate,
+@interface GMFIMASDKAdService : NSObject /*:GMFAdService<IMAAdsLoaderDelegate,
                                              IMAAdsManagerDelegate,
-                                             GMFPlayerOverlayViewControllerDelegate> {
- @private
-  UIView* _adView;
+                                             GMFPlayerOverlayViewControllerDelegate> */ {
+// @private
+//  UIView* _adView;
 }
-
-@property(nonatomic, strong) IMAAdsLoader *adsLoader;
-
-@property(nonatomic, strong) IMAAdsManager *adsManager;
-
-@property(nonatomic, strong) IMAAdDisplayContainer *adDisplayContainer;
-
-@property(nonatomic, strong) GMFAdsSettings *settings;
-
-- (instancetype)initWithGMFVideoPlayer:(GMFPlayerViewController *)videoPlayerController
-						   andSettings:(GMFAdsSettings *)settings;
-
-// Initiate a request to the ads server for ads associated with the given adtag.
-- (void)requestAdsWithRequest:(NSString *)request;
-
-- (void)reset;
-
-#pragma mark GMFPlayerOverlayViewDelegate
-
-- (void)didPressPlay;
-- (void)didPressPause;
-- (void)didPressReplay;
-- (void)didPressMinimize;
-- (void)didSeekToTime:(NSTimeInterval)time;
-- (void)didStartScrubbing;
-- (void)didEndScrubbing;
-- (void)didPressHd;
+//
+//@property(nonatomic, strong) IMAAdsLoader *adsLoader;
+//
+//@property(nonatomic, strong) IMAAdsManager *adsManager;
+//
+//@property(nonatomic, strong) IMAAdDisplayContainer *adDisplayContainer;
+//
+//@property(nonatomic, strong) GMFAdsSettings *settings;
+//
+//- (instancetype)initWithGMFVideoPlayer:(GMFPlayerViewController *)videoPlayerController
+//						   andSettings:(GMFAdsSettings *)settings;
+//
+//// Initiate a request to the ads server for ads associated with the given adtag.
+//- (void)requestAdsWithRequest:(NSString *)request;
+//
+//- (void)reset;
+//
+//#pragma mark GMFPlayerOverlayViewDelegate
+//
+//- (void)didPressPlay;
+//- (void)didPressPause;
+//- (void)didPressReplay;
+//- (void)didPressMinimize;
+//- (void)didSeekToTime:(NSTimeInterval)time;
+//- (void)didStartScrubbing;
+//- (void)didEndScrubbing;
+//- (void)didPressHd;
 
 @end

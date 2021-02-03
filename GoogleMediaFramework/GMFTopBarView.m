@@ -109,10 +109,10 @@
     UIButton *button;
     if ([name isEqualToString:@"CAST_BUTTON"]) {
         CGRect frame = CGRectMake(0, 0, 24, 24);
-        SambaCastButton *castButton = [[SambaCastButton alloc] initWithFrame:
-                                       frame];
-        castButton.tintColor = [UIColor whiteColor];
-        button = castButton;
+//        SambaCastButton *castButton = [[SambaCastButton alloc] initWithFrame:
+//                                       frame];
+//        castButton.tintColor = [UIColor whiteColor];
+//        button = castButton;
     } else {
         button = [UIButton buttonWithType:UIButtonTypeCustom];
         [button setImage:image forState:UIControlStateNormal];

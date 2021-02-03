@@ -7,15 +7,15 @@
 //
 
 #import "GMFAdsSettings.h"
-@import GoogleInteractiveMediaAds;
+//@import GoogleInteractiveMediaAds;
 
 @implementation GMFAdsSettings
 
 - (instancetype)init {
-	if (self = [super init]) {
+//	if (self = [super init]) {
 		self.maxRedirects = 4;
 		self.vastLoadTimeout = 8;
-	}
+//	}
 	
 	return self;
 }
